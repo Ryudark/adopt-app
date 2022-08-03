@@ -1,13 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View } from 'react-native';
-import { Text } from "native-base";
+import { Text, Box } from "native-base";
 
 export default function App() {
   return (
-    <View style={styles.container}>
+    <Box style={styles.container}>
       <Text>Open up App.tsx to start working on your app!</Text>
       <StatusBar style="auto" />
-    </View>
+    </Box>
   );
 }
 

@@ -1,14 +1,14 @@
 import { StyleSheet, View } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
-import { Text } from "native-base";
+import { Text, Box } from "native-base";
 
 export default function Principal(){
 
     return (
-        <View style={styles.container}>
-            <Text>Open up App.tsx to start working on your app!</Text>
+        <Box style={styles.container}>
+            <Text>Principal!</Text>
             <StatusBar style="auto" />
-        </View>
+        </Box>
         );
 
 }
@@ -20,4 +20,4 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
     },
-  });
+});
